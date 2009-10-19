@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>Language labels for tca fields belonging to extension 'categorization'</description>
+		<type>database</type>
+		<csh_table></csh_table>
+		<fileId>EXT:categorization/locallang_tca.xml</fileId>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="select_deselect_categories">Category mode:</label>
+			<label index="category_selection_showAll">Show all (don't care about selection above)</label>
+			<label index="category_selection_showSelected">Show items with selected categories (OR)</label>
+			<label index="category_selection_showSelectedAND">Show items with selected categories (AND)</label>
+			<label index="category_selection_DontShowSelected">Do NOT show items with selected categories (AND)</label>
+			<label index="category_selection_DontShowSelectedOR">Do NOT show items with selected categories (OR)</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+			<label index="select_deselect_categories">Kategori indstilling</label>
+			<label index="category_selection_showSelected">Vis nyheder med valgte kategorier</label>
+			<label index="category_selection_DontShowSelected">Vis IKKE nyheder med valgte kategorier</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="select_deselect_categories">Kategoriemodus:</label>
+			<label index="category_selection_showAll">Zeige alle Beiträge (ignoriere folgende Auswahl)</label>
+			<label index="category_selection_showSelected">Zeige alle Beiträge aus ausgewählten Kategorien (ODER)</label>
+			<label index="category_selection_showSelectedAND">Zeige alle Beiträge aus ausgewählten Kategorien (UND)</label>
+			<label index="category_selection_DontShowSelected">Zeige KEINE Beiträge aus ausgewählten Kategorien (UND)</label>
+			<label index="category_selection_DontShowSelectedOR">Zeige KEINE Beiträge aus ausgewählten Kategorien (ODER)</label>
+		</languageKey>
+		<languageKey index="no" type="array">
+			<label index="select_deselect_categories">Innstillinger for kategori</label>
+			<label index="category_selection_showAll">Vis alle (ikke bruk valgene under)</label>
+			<label index="category_selection_showSelected">Vis kun innenfor valgte kategorier</label>
+			<label index="category_selection_DontShowSelected">IKKE vis elementer innenfor valgte kategorier</label>
+		</languageKey>
+		<languageKey index="it" type="array">
+			<label index="select_deselect_categories">Modalità Categoria:</label>
+			<label index="category_selection_showAll">Mostra tutti (non importa la selezione sottostante)</label>
+			<label index="category_selection_showSelected">Mostra elementi nelle categorie selezionate</label>
+			<label index="category_selection_DontShowSelected">NON mostrare elementi nelle categorie selezionate</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="select_deselect_categories">Categorie modus:</label>
+			<label index="category_selection_showAll">Toon alle (negeer onderstaande selectie)</label>
+			<label index="category_selection_showSelected">Tonen van alle items aan de hand van geselecteerde categorien</label>
+			<label index="category_selection_DontShowSelected">NIET tonen van alle items aan de hand van geselecteerde categorien</label>
+		</languageKey>
+	</data>
+</T3locallang>
